@@ -75,6 +75,13 @@ body .slide-background {
 	font-size: .75em;
 }
 
+@media all and (max-width: 1279px) {
+
+	.mainpage time {
+		right: 0;
+	}
+}
+
 .reveal h1 {
 	color: rgba(255,255,255,.95);
 	text-shadow: 0 2px 4px rgba(0,0,0,.5),
@@ -151,10 +158,12 @@ body .slide-background {
 
 .rd-students-collage .slide-background {
 	background: url(../assets/i/epamers.jpg) center repeat;
+	background-size: contain;
 }
 
 .rd-students-stat .slide-background {
 	background: url(../assets/i/epamers.jpg) center repeat;
+	background-size: contain;
 }
 
 .rd-students-stat .slide-background::after {
